@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
    function toggleText() {
       if (isOriginal) {
-         palindromeText.textContent = "saippuakivikauppias — самое длинное слово-палиндром в мире";
+         palindromeText.textContent = "saippuakivikauppias — longest palindrome word in the world";
       } else {
          palindromeText.textContent = originalText;
       }
