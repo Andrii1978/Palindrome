@@ -7,6 +7,7 @@ body {
    background: rgb(82, 70, 150);
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    color: rgb(152, 164, 233);
+   min-width: 760px;
 }
 
 h1 {
@@ -38,6 +39,7 @@ h2 {
 }
 
 #container1, #container2 {
+   margin: 10px 0;
    padding: 20px;
    width: calc(600px - 40px);
    height: calc(500px - 40px);   
