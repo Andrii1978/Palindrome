@@ -1,0 +1,79 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   background: rgb(82, 70, 150);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(152, 164, 233);
+}
+
+h1 {
+   font-size: 80px;
+   text-align: center;
+   letter-spacing: 15px;
+}
+
+h2 {
+   font-size: 45px;
+   text-align: center;
+}
+
+.containers {
+   margin: 80px 80px 0 80px;
+   display: flex;
+   justify-content: space-around;
+   flex-flow: wrap;
+}
+
+.containers div {
+   font-size: 30px;
+   width: 600px;
+   height: 500px;
+   background-color: rgb(40, 17, 92);
+   border-radius: 25px;
+   position: relative;
+   overflow: hidden;
+}
+
+#container1, #container2 {
+   padding: 20px;
+   width: calc(600px - 40px);
+   height: calc(500px - 40px);   
+}
+
+#text-input {
+   margin-top: 35px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   width: calc(600px - 40px);
+   font-size: 25px;
+}
+
+#check-btn {
+   margin-top: 35px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   width: calc(600px - 35px);
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(152, 164, 233);
+   background: rgb(82, 70, 150);
+}
+
+#result {
+   margin-top: 100px;
+   width: calc(600px - 40px);
+   height: 150px;
+   border-radius: 0;
+   position: absolute;
+}
+
+#container2 > p {
+   margin-top: 25%;
+   text-align: justify;
+   line-height: 1.5;
+}
+
+
